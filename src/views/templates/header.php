@@ -38,7 +38,7 @@
                     <div class="dropdown-content">
                         <a href="contato.php">
                             <i class="icofont-contacts mr-4"></i>
-                            Contato
+                            Contacts
                         </a>
                     </div>
                 </div>
