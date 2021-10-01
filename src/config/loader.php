@@ -1,9 +1,5 @@
 <?php
 
-function loadModel($modelName){
-    require_once(MODEL_PATH . "/{$modelName}.php");
-}
-
 function loadView($viewName, $params = array()){
     if(count($params) > 0){
         foreach($params as $key => $value){

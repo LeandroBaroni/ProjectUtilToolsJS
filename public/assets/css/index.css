@@ -1,8 +1,28 @@
 header{
-    text-align: justify;
-    background-color: teal;
-    color: white;
-    padding: 10px;
+    text-align: center;
+    color: rgb(12, 202, 161);
+    padding: 15px;
+    /* width: 60vw;
+    height: 80vh;
+    background-color: white; */
+    /* border-radius: 10px;
+    position: absolute;
+    top: 100%;
+    overflow: hidden;
+    left: 50%;
+    transform: translate(-50%, 50%); */
+}
+
+.curve_header{
+    width: 105%;
+    height: 15%;
+    left: -3%;
+    position: absolute;
+    background-image: linear-gradient(#8459f9, #4c3196);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
 }
 
 .dropdown {
@@ -30,15 +50,49 @@ body{
     padding: 10px;
     margin: 20px;
 }
+
 main.content{
-    background-color: darkkhaki;
+    background-color: lightgreen;
     box-shadow: darkslategray;
 }
+
+main.content .content-title{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CCC;
+}
+
+main.content .content-title .icon{
+    font-size: 3rem;
+}
+
+main.content .content-title h2{
+    color: #444;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+main.content .content-title h3{
+    color: #888;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0;
+}
+
 div.inputs{
     margin: 10%;
     padding: 10px;
 }
 
-footer{
+footer.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 1.2rem;
+    grid-area: auto;
     background-color: darkgray;
+    color: #FFF;
 }
